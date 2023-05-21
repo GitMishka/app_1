@@ -10,7 +10,7 @@ def main():
     port = "your_port_number"
 
     # Replace these with your API details
-    api_url = "your_api_url"
+    api_url = "https://api.bls.gov/publicAPI/v2/timeseries/data/LAUCN040010000000005"
     api_key = "0b0b20cb-e45b-4ff6-9c4c-234fc5302b5d"
 
     conn = connect_db(host, dbname, user, password, port)
