@@ -11,7 +11,7 @@ def main():
 
     # Replace these with your API details
     api_url = "your_api_url"
-    api_key = "your_api_key"
+    api_key = "0b0b20cb-e45b-4ff6-9c4c-234fc5302b5d"
 
     conn = connect_db(host, dbname, user, password, port)
     if conn is not None:
